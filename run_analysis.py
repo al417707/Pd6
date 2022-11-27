@@ -13,4 +13,3 @@ for i in range(len(dane)):
     col.append([mean(dane[i]),median(dane[i]),std(dane[i])])
 
 save(col, sys.argv[2])
-
