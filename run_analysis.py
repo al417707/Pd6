@@ -7,7 +7,6 @@ from iris_analysis.calculate import std
 import sys
 path = sys.argv[1]
 
-path = 'C:\\Users\\1aaa2\\PycharmProjects\\Pd4\\Data\\iris.csv'
 dane = load(path)
 col = [['mean','median','std']]
 for i in range(len(dane)):
